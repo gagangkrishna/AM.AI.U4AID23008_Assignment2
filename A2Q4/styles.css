@@ -1,0 +1,48 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif; 
+}
+
+
+body {
+    background-color: lightyellow; 
+    padding: 20px;
+}
+
+
+.title {
+    text-align: center;
+    color: red;
+    margin: 20px 0;
+}
+
+
+h2 {
+    text-decoration: underline;
+    margin-top: 20px;
+}
+
+p {
+    margin: 10px 0;
+    line-height: 1.6;
+    color: blue;
+}
+
+
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+
+.image {
+    display: block;
+    margin: 20px auto;
+    width: 60%;
+    border: 3px solid green; 
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+}
