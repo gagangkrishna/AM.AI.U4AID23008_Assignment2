@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled List</title>
+    <style>
+        
+        ul {
+            list-style-type: circle;
+        }
+
+       
+        li {
+            font-style: italic;
+            margin: 5px 0;
+        }
+
+        #clickable-list a {
+            text-decoration: none; 
+            font-style: italic;
+        }
+
+        #clickable-list a:link {
+            color: blue;
+        }
+
+        #clickable-list a:visited {
+            color: purple; 
+        }
+
+        #clickable-list a:hover {
+            color: red; 
+        }
+
+        #clickable-list a:active {
+            color: green; 
+        }
+    </style>
+</head>
+<body>
+    <pre style="text-align: right;">GAGAN GIREESH KRISHNA
+        AM.AI.U4AI23008
+        S4 Btech AID
+    </pre>
+    <h2 style="text-align: center;">Asssignment 2</h2>
+    <p>
+       6. . Create an unordered list with 3 items. The items should be clickable. Use the id 
+       selector to ensure
+       a. They do not have an underline beneath
+       b. change the font style of all listitems to italic and change the list style to 
+       circle.
+       c. Apply the following Link Pseudo-Classes and change the colours of the links
+       i. :link
+       ii. :visited
+       iii. :hover
+       iv. :active
+       
+    </p>
+
+    <ul id="clickable-list">
+        <li><a href="https://www.google.com" target="_blank">Google</a></li>
+        <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+        <li><a href="https://www.twitter.com" target="_blank">Twitter</a></li>
+    </ul>
+
+</body>
+</html>
